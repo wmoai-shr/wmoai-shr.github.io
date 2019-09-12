@@ -1,0 +1,74 @@
+<html>
+<style>
+#modal {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+}
+.other {
+  height: 40px;
+  background-color: gainsboro;
+}
+.content {
+  flex: 1;
+  overflow: scroll;
+}
+table {
+  position: relative;
+}
+th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: silver;
+}
+tbody {
+  margin-top: 50px;
+}
+td {
+  height: 50px;
+}
+</style>
+  <body>
+    <div id="modal">
+      <div class="other"></div>
+      <div class="other"></div>
+      <div class="content">
+        <table>
+          <thead>
+            <tr>
+              <th>testtest</th>
+              <th>testtesttest</th>
+              <th>test</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+            </tr>
+            <tr>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+            </tr>
+            <tr>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+            </tr>
+            <tr>
+              <td>test</td>
+              <td>test</td>
+              <td>test</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="other"></div>
+    </div>
+  </body>
+</html>
